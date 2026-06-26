@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain-openrouter
+langchain-core
+langchain-community
+beautifulsoup4
+streamlit
+requests
+langchain
