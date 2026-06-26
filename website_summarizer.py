@@ -14,7 +14,7 @@ if st.button("Generate Summary"):
     else:
         with st.spinner("Scraping webpage text and analyzing content..."):
             try:
-                backend_url = "http://127.0.0.1:8000/summarize"
+                backend_url = "https://ai-web-summarizer-nwm5.onrender.com/summarize"
                 payload = {"url": target_url}
                 response = requests.get(url=backend_url, params=payload)
                 
